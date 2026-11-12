@@ -1,0 +1,36 @@
+/* dagpilot 设计令牌：地铁线路图风。
+   米黄纸底 + 粗线支线 + 圆点站点 + 报站字重。全部 oklch，禁纯黑纯白。 */
+:root {
+  --paper: oklch(0.963 0.023 84);
+  --paper-2: oklch(0.937 0.029 82);
+  --paper-3: oklch(0.905 0.033 80);
+  --cream: oklch(0.985 0.012 88);
+
+  --ink: oklch(0.288 0.026 62);
+  --ink-soft: oklch(0.468 0.022 64);
+  --ink-faint: oklch(0.662 0.018 70);
+  --rule: oklch(0.798 0.024 82);
+  --rule-strong: oklch(0.70 0.03 80);
+
+  --line-ingest: oklch(0.555 0.172 28);
+  --line-dim: oklch(0.515 0.092 205);
+  --line-report: oklch(0.445 0.104 152);
+  --line-ml: oklch(0.625 0.142 66);
+
+  --signal-over: oklch(0.505 0.172 28);
+  --signal-tight: oklch(0.605 0.128 62);
+  --signal-ok: oklch(0.495 0.098 152);
+  --signal-muted: oklch(0.60 0.018 70);
+
+  --font-display: 'Rubik', 'Noto Sans SC', 'PingFang SC', sans-serif;
+  --font-body: 'Noto Sans SC', 'Rubik', 'PingFang SC', sans-serif;
+
+  --rail-w: 92px;
+  --pad: clamp(16px, 2.2vw, 34px);
+  --radius: 4px;
+  --stroke-line: 13px;
+
+  --shadow-lift: 0 1px 0 oklch(0.86 0.02 82), 0 14px 30px -22px oklch(0.35 0.03 70 / 0.55);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
